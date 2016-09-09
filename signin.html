@@ -1,0 +1,256 @@
+<!DOCTYPE html> 
+<html lang="en" xmlns="w3.org/1999/xhtml">
+<head>
+   
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Band</title>	
+    <meta name="viewport" content="width=device-width" />
+	<meta name="Band" content="Some band site" >
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	 <link rel="stylesheet" href="libs/FontAwesome/css/font-awesome.min.css">
+   <!-- <link rel="stylesheet" media="(max-width: 800px)" href="example.css" />-->
+   
+    <link href="css/WithWrap.css" rel="stylesheet" media="all and (max-width: 1110px)">
+    <!--<script src="js/jquery-1.12.2.js"></script>
+    <script src="js/jquery.js"></script>-->
+    
+    <style>
+		form 		{width: 500px; margin: 0 auto;    }
+        fieldset	{ font-family: 'Open Sans', sans-serif; font-size: 16px;border:none; }
+			h2{font-weight: 300; text-align:center; }
+				.innerForm 	{margin: 0px auto; width: 271px; }
+				hr{color: #908b8b; background-color: #908b8b; border:none; height: 1px;}
+		p {
+  font-size: 12px;
+  width: 150px;
+  display: inline-block;
+  margin-left: 18px;
+}
+		input[type=radio] {
+  visibility: hidden;
+}
+label.radio {
+	cursor: pointer;
+  text-indent: 35px;
+  overflow: visible;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 10px;
+  
+}
+
+label.radio:before {
+  background: #af0d09;
+  content:'';
+  position: absolute;
+  top:2px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+}
+
+label.radio:after {
+	opacity: 0;
+	content: '';
+	position: absolute;
+	width: 0.5em;
+	height: 0.25em;
+	background: transparent;
+	top: 7.5px;
+	left: 4.5px;
+	border: 3px solid #ffffff;
+	border-top: none;
+	border-right: none;
+
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+input[type=radio]:checked + label:after {
+	opacity: 1;
+}
+		.testbox {
+		
+  margin: 40px auto 0 auto;
+  width: 320px; 
+  -webkit-border-radius: 8px/7px; 
+  -moz-border-radius: 8px/7px; 
+  border-radius: 8px/7px; 
+  background-color: #ebebeb; 
+  -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+  -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+  box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+  border: solid 1px #cbc9c9;
+}
+label[for="email"],label[for="person"]{margin-left:20px; color: #af0d09; font-size:2em;}	
+[placeholder="Name"]{margin-left:5px;}
+a.button {
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  padding: 6px 25px 0px 20px;
+  margin: 10px 8px 20px 0px;
+  display: inline-block;
+  float: right;
+  text-decoration: none;
+  width: 50px; height: 27px; 
+  -webkit-border-radius: 5px; 
+  -moz-border-radius: 5px; 
+  border-radius: 5px; 
+  background-color: #af0d09; 
+-webkit-box-shadow: 15px 10px 5px 0px rgba(242,81,78,1);
+-moz-box-shadow: 15px 10px 5px 0px rgba(242,81,78,1);
+box-shadow: 15px 10px 5px 0px rgba(242,81,78,1);
+  transition: all 0.1s linear 0s; 
+  top: 0px;
+  position: relative;
+}
+
+a.button:hover {
+  top: 3px;
+  background-color:#af0d09;
+  -webkit-box-shadow: none; 
+  -moz-box-shadow: none; 
+  box-shadow: none;
+  
+}
+	/*#circle
+        {
+            background: red;
+            border-radius: 25px;
+            height: 50px;
+            width: 50px;
+        }
+        #box
+        {
+            background: red;
+            width: 200px;
+            height: 200px;
+            display: none;
+            position: relative;
+        }*/
+		
+	
+    </style>
+</head>
+
+<body>
+<div id="wrapper" >	
+	
+    <header id="signInHead" >
+           <div id="signIn" >
+            <a href="signin.html">sign in</a>
+            <a href="signin.html"> <img src="img/Login.png" ></a>
+           
+            </div>
+    </header>
+   <header id="mainAuroraHead" class="allshadow" >
+        <div id="mainAurora" class="allwidth" >
+           <div class="twoimages">
+               <img src="img/Log.png" >
+            <div id="contactUs" >
+                Contact Us: <b>+380636543041
+                <br >
+                bronya10@gmail.com
+                <br></b>
+                <a href="https://www.facebook.com/"><img src="img/Facebook_Red.png"></a>
+                <a href="https://vk.com"> <img  src="img/VK_Red.png"></a>
+                <a href="https://twitter.com"><img src="img/Twitter_Red.png"></a>
+            </div>
+           </div>
+            
+            <img id="planeCrush" src="img/Plane_crush.png">
+        </div>
+        
+	</header>
+    <nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+			<li><a href="media.html">Contacts</a></li>
+			<li><a href="buy.html">Buy</a></li>
+            <li><a href="about.html">About</a></li>
+            
+		</ul>
+	</nav>
+     <div class="allwidth formik ">
+      <form class="testbox">
+	  
+          <fieldset>
+		  
+			<div class="innerForm">
+			          <h2>Registration</h2>
+				<hr>
+			  <input type="radio" name="gender" id="male" value="male" checked>
+			  <label class="radio" for="male">Male</label>
+			  <input type="radio" name="gender" id="female" value="female">
+			  <label class="radio" for="female">Female</label>
+			  <hr>
+			  
+			 <Label for="email"><i class="fa fa-envelope" aria-hidden="true"></i>
+			</Label>
+			  <input type="text" id="email" placeholder="Email"> <br>
+			  <Label for="person"><i class="fa fa-drupal" aria-hidden="true"></i>
+
+			</Label>
+			  <input type="text" id="person" placeholder="Name"><br>
+			  
+			 
+			     <p>By clicking Register, you agree on our <a href="#">terms and condition</a>.</p>
+   <a href="#" class="button">Register</a>
+			  </div>
+          </fieldset >        
+    </form>
+	</div>
+         <!--<p id="test">Some text</p>
+         <button id="myButton">Click
+         </button>
+         <button id="myButton2">Click
+         </button>
+         <button id="clear">Click
+         </button>
+         <div id="div1">
+         </div>
+    </div>
+    <div id="circle">
+
+           </div>
+    <div id="box">
+        
+    </div>-->
+</div>
+       <footer>
+           <div id="foot" class="allwidth">
+           <div class="share">
+              <a href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank"> 
+             <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" /> 
+        </a> 
+        <a href="https://plus.google.com/share?url=https://simplesharebuttons.com" target="_blank"> 
+         <img src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google" /> 
+     </a> 
+        <a href="https://twitter.com/share?url=https://simplesharebuttons.com&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons" target="_blank"> 
+        <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" /> 
+    </a> 
+     
+     <a href="http://vkontakte.ru/share.php?url=https://simplesharebuttons.com" target="_blank"> 
+         <img src="https://simplesharebuttons.com/images/somacro/vk.png" alt="VK" /> 
+     </a> 
+
+          </div>
+           <div id="footercop" >Copyright &copy Aurora <br>All rights reserved
+        </div>
+        <div id="footerShare" >
+                Share:<br>
+                <a class="fonthrefs" href="https://www.facebook.com/"><i class="fa fa-facebook-official"></i></a>
+                <a  class="fonthrefs" href="https://vk.com"><i class="fa fa-vk"></i></a> 
+                <a class="fonthrefs" href="https://twitter.com"><i class="fa fa-twitter-square"></i></a>
+            </div>
+        
+        </div>
+    </footer>
+</body>	
+</html>

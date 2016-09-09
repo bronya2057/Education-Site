@@ -1,0 +1,246 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Band</title>	
+	<meta name="Band" content="Some band site" charset="UTF-8">	
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="libs/FontAwesome/css/font-awesome.min.css">
+	   <link href="css/WithWrap.css" rel="stylesheet" media="all and (max-width: 1110px)">  
+	   <script src="js/jquery-1.12.2.js"></script> 
+    <style>
+        .sectOne{min-width: 500px; }
+        
+        .namelist{ padding: 19px; border-radius: 5px;  width:200px; text-align: center;float:left;background: #feffef; 
+background: -moz-radial-gradient(center, ellipse cover, #feffef 48%, #e4e7d5 100%); 
+background: -webkit-radial-gradient(center, ellipse cover, #feffef 48%,#e4e7d5 100%); 
+background: radial-gradient(ellipse at center, #feffef 48%,#e4e7d5 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffef', endColorstr='#e4e7d5',GradientType=1 );
+            transition: visibility 0s, opacity 0.5s linear;
+           }
+        .namelist ul{list-style:none; padding:0;}
+        #nameinfo{ 
+            
+            border-radius: 5px; 
+            margin-left: 250px;
+            margin-top: 60px;
+            
+        }
+        #nameinfo div:not(:first-child)
+        {
+            display: none;
+        }
+        .namelist:hover{cursor: default;box-shadow: 1px 3px 20px 0px rgba(0,0,0,0.79);
+        
+        transition: 0.5s;}
+        .namelist li:hover{background: #969696;
+        border-radius: 5px; color:cornsilk;transition: .5s;
+        
+        }
+        #greetingscontacts{position: relative;}
+        .preshka{font}
+        .preshka,h1{margin: 0;padding: 0; text-align: center;}
+        .face{background-image: url(img/angr.png);
+                background-position: -162px -10px;
+                height: 80px;
+                width: 73px;
+                border-radius: 80px;
+                border: 10px solid black;
+            float:left;
+                }
+       
+        .facemove:not(h3)
+        {
+           margin: 50px;
+            margin-left: 80px;
+        }
+        
+        h3{margin: 100px 0 0 15px}
+    </style>
+</head>
+<body>
+<div id="wrapper" >	
+    <header id="signInHead" >
+           <div id="signIn" >
+            <a href="signin.html">sign in</a>
+            <a href="signin.html"> <img src="img/Login.png" ></a>
+           
+            </div>
+    </header>
+   <header id="mainAuroraHead" class="allshadow" >
+        <div id="mainAurora" class="allwidth" >
+           <div class="twoimages">
+               <img src="img/Log.png" >
+            <div id="contactUs" >
+                Contact Us: <b>+380636543041
+                <br >
+                bronya10@gmail.com
+                <br></b>
+                <a href="https://www.facebook.com/"><img src="img/Facebook_Red.png"></a>
+                <a href="https://vk.com"> <img  src="img/VK_Red.png"></a>
+                <a href="https://twitter.com"><img src="img/Twitter_Red.png"></a>
+            </div>
+           </div>
+            
+            <img id="planeCrush" src="img/Plane_crush.png">
+        </div>
+        
+	</header>
+    <nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+			<li><a href="media.html">Contacts</a></li>
+			<li><a href="buy.html">Buy</a></li>
+            <li><a href="about.html">About</a></li>
+            
+		</ul>
+	</nav>
+	
+	<section class="allwidth  sectOne">
+	    <div class="namelist allshadow">
+        <h1>Names</h1>    
+	        <ul>
+	            <li  onclick="contactme(1);">Alex</li>
+	            <li onclick="contactme(2);">Shmalex</li>
+	            <li onclick="contactme(3);">Pfalex</li>
+	        </ul>
+            <p>Please contact one of our best contacters</p>
+            
+	    </div>
+	    
+	   
+         <div id="nameinfo" class="allshadow">
+	        <div id="greetingscontacts">
+                <h1>Please choose one of out contacters!</h1>
+                 <aside class="face facemove">
+                     <h3>Alex</h3>
+                 </aside>
+                 
+                 <aside class="face facemove">
+                     <h3>Phalex</h3>
+                 </aside>
+                 
+                 <aside class="face facemove">
+                     <h3>Shhalex</h3>
+                 </aside>
+                
+                
+                
+	        </div>
+            <div id="alex">
+	            <img src="" alt="">
+	            <h1>Alex</h1>
+	            <pre class="preshka">                
+Если хотите позвонить домой              (044) 248-02-22
+Если хотите позвонить на работу          (044) 888-80-80
+Если хотите позвонить жене                0 800 321-808
+    
+    Связь по E-Mail:
+    bronya2057@gmail.com
+
+    Звонки со стационарных телефонов по Украине - бесплатно
+    Подробнее: <a href="about.html">about</a>
+
+ График работы колл-центра
+с 8:00 до 21:00
+
+В субботу:с 9:00 до 20:00
+В воскресенье: с 10:00 до 19:00
+
+Подробнее: <a href="about.html">about</a>
+	            </pre>
+	        </div>
+	        <div id="Shmalex">
+	            <img src="" alt="">
+	            <h1>Shmalex</h1>
+	            <pre class="preshka">                
+Если хотите позвонить домой              (044) 537-02-22
+Если хотите позвонить на работу          (044) 503-80-80
+Если хотите позвонить на кафедру         0 800 503-808
+    
+    Связь по E-Mail:
+    goldendict@michailuk.com
+
+    Звонки со стационарных телефонов по Украине - бесплатно
+    Подробнее: <a href="about.html">about</a>
+
+ График работы колл-центра
+с 8:00 до 21:00
+
+В субботу:с 9:00 до 20:00
+В воскресенье: с 10:00 до 19:00
+
+Подробнее: <a href="about.html">about</a>
+        </pre>
+	        </div>
+	        <div id="Pfalex">
+	            <img src="" alt="">
+	            <h1>Pfalex</h1>
+	            <pre class="preshka">                
+Если хотите позвонить домой              (044) 537-02-22
+Если хотите позвонить на работу          (044) 503-80-80
+Если хотите позвонить жене                0 800 503-808
+    
+    Связь по E-Mail:
+    bronya2057@gmail.com
+
+    Звонки со стационарных телефонов по Украине - бесплатно
+    Подробнее: <a href="about.html">about</a>
+
+ График работы колл-центра
+с 8:00 до 21:00
+
+В субботу:с 9:00 до 20:00
+В воскресенье: с 10:00 до 19:00
+
+Подробнее: <a href="about.html">about</a>
+        </pre>
+	        </div>
+	    </div>
+	
+	
+	</section>
+</div>
+	<footer>
+           <div id="foot" class="allwidth">
+           <div class="share">
+              <a href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank"> 
+             <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" /> 
+        </a> 
+        <a href="https://plus.google.com/share?url=https://simplesharebuttons.com" target="_blank"> 
+         <img src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google" /> 
+     </a> 
+        <a href="https://twitter.com/share?url=https://simplesharebuttons.com&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons" target="_blank"> 
+        <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" /> 
+    </a> 
+     
+     <a href="http://vkontakte.ru/share.php?url=https://simplesharebuttons.com" target="_blank"> 
+         <img src="https://simplesharebuttons.com/images/somacro/vk.png" alt="VK" /> 
+     </a> 
+
+          </div>
+           <div id="footercop" >Copyright &copy Aurora <br>All rights reserved
+        </div>
+        <div id="footerShare" >
+                Share:<br>
+                <a class="fonthrefs" href="https://www.facebook.com/"><i class="fa fa-facebook-official"></i></a>
+                <a  class="fonthrefs" href="https://vk.com"><i class="fa fa-vk"></i></a> 
+                <a class="fonthrefs" href="https://twitter.com"><i class="fa fa-twitter-square"></i></a>
+            </div>
+        
+        </div>
+    </footer>
+    
+        
+    
+    <!--<script type="text/javascript">
+		function show(val)
+		{
+		  console.log(val);
+		}
+    </script>-->
+    <script src="js/contacts.js"></script>
+    <script src="js/jqueryContacts.js"></script>
+</body>	
+</html>

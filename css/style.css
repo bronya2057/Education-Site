@@ -1,0 +1,360 @@
+
+html,body
+{   
+  height:100%;
+
+    margin: 0;
+    padding: 0;
+}   
+/*overflow-x:hidden;*/
+h1,h2
+{
+	font-family: "Arial";
+	font-size:20pt;
+} 
+p
+{
+	font-family:"Times new roman";
+	font-size:14pt;
+	
+}
+#saver
+{
+    background: #000;
+    width: 100%;
+}
+
+#wrapper
+{
+	font-family: "Arial";
+    min-height: 100%;
+   /* position: relative;
+    margin: 0 auto;
+    height:auto !important; /* real browsers */
+    /*min-height:100%;*/ /* real browsers */
+   /*min-height: 100%;*/
+}
+body
+{
+   margin: 0;
+    padding: 0;
+    background-image:url(../img/concrete_seamless.png);  
+     min-width: 1167px; 
+    /*overflow-x: hidden;*/
+    margin:0;
+    /*width: 1024px;
+    margin: 0 auto;*/
+}
+.allwidth
+{
+    width: 1024px;
+    margin: 0 auto;
+    
+}
+.allshadow
+{
+
+       box-shadow:  0 3px 4px 0 rgba(0, 0, 0, 0.19); 
+}
+.cardtext
+{
+    margin: 0x;
+    text-align: center;
+}
+.cardtextBottom
+{
+    text-align: center;
+    margin:145px 0 0 0 ;
+}
+.cardwith
+{
+   margin:0 0 40px 0 ;
+    float:left;
+    width: 140px;
+    height:190px;
+    border:3px solid black;
+    border-radius: 7px; 
+}
+
+
+/*TOP LINE SIGN IN*/
+#signIn
+{
+    width: 1024px;
+    margin: 0 auto;
+    color:white;
+    padding: 15px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: right;
+}
+#signIn a
+{
+    color: white;
+    text-decoration: none;
+}
+#signInHead
+{
+   
+   background: linear-gradient(to bottom, #e64833 43%,#a30000 100%);
+    
+}
+#signIn img
+{
+    position:relative;
+    top:3px;
+}
+
+
+/*Header*/
+#mainAurora
+{
+    height: 120px;
+
+}
+#mainAuroraHead
+{   
+    height: 120px;
+   
+
+}
+/*#mainAurora>img
+{
+ 
+float:left; 
+margin:20px 0 0 30px; /*65px;  
+    padding-right: 20px;
+}
+#contactUs
+{
+
+    float:left;
+    margin:20px 60px 0 90px; 
+    text-align: center;
+    
+}*/
+#mainAurora
+{
+    position: relative;
+    margin: 0 auto;
+}
+.twoimages>img
+{
+    float:left;
+    
+}
+.twoimages
+{
+    
+   /* float: left;*/
+   width: 600px;
+    margin: 0 auto;
+    margin-top: 40px;
+    
+}
+#planeCrush{
+    top: 0px;
+position: absolute;
+float: left;
+left: 800px;
+    
+}
+
+/*BUTTONS*/
+
+nav
+{
+ width: 1045px;
+   margin: -10px auto;
+text-align: center;
+
+}
+nav ul 
+{
+ 
+
+    list-style-type: none;
+    
+    
+}
+nav ul li
+{
+    background-color: #c7271c;
+    display: inline;
+    padding: 5px 30px ;  
+    margin-left: -5px;
+    box-shadow:  0 3px 4px 0 rgba(0, 0, 0, 0.19);
+    transition:.5s;
+}
+
+nav ul li a
+{
+    margin:0;
+    color:white;
+    text-decoration: none;
+}
+/*MainContent*/
+
+#sectionOne
+{
+   width:600px;
+    margin:40px 23%;
+}
+#sectionOne
+{
+    line-height: 28px;
+}
+.upcont
+{
+     
+    font-weight: normal;
+    font-family: sans-serif;
+
+}
+
+/*Cards*/
+
+#Mobility,#safety,#Beaches,#Dreams
+{
+    position: relative;
+}
+#safety img
+{
+    position: absolute;
+    bottom: 10px;
+    left: 7px  
+}
+#safety span
+{
+    color:#a30000;
+}
+#Dreams img
+{
+    position: absolute;
+    bottom: 15px;
+    left: 7px  
+}
+#Dreams span
+{
+    color:#3ac5ed;
+    
+}
+
+#Beaches img
+{
+    position: absolute;
+    bottom: 5px;
+    left: 11px  
+}
+#Beaches span
+{
+    color:#ff6b1a;
+}
+#Mobility img
+{
+   
+    position: absolute;
+    bottom: 20px;
+    left: 7px  
+}
+#Mobility span
+{
+    color:#33ad61;
+}
+#cards div:first-child
+{
+    margin-left: 50px;
+}
+#cards div:not(:last-child)
+{
+    margin-right: 120px;
+}
+#vid
+{   
+    
+   clear: both;
+    margin: 0 auto;
+    
+}
+#vid iframe
+{
+   margin:40px 0 20px 0;
+    width:1024px;
+    height: 768px;
+  /*margin:40px 0 40px 130px;*/
+}
+
+#bottomSect
+{
+  margin: 5px auto;
+position: relative;
+    
+}
+
+.leftArt 
+{
+    margin: 0 80px 0px 50px;
+    width:58%;
+    float: left;
+	line-height:24pt;
+    padding-top: 40px;
+}
+.rightArt
+{
+    position: relative;
+    margin:0 10px 40px 0;
+    width:27%;
+overflow: hidden;
+line-height:24pt;
+     padding-top: 40px;
+   
+}
+footer
+{
+    width: 100%;
+    background: #af0d09;
+    color:white;
+    clear: both;
+}
+
+#foot,#wrapper:after
+{
+    height: 130px;
+}
+.fonthrefs
+{
+    color: white;
+}
+#footerShare
+{
+    text-align: center;
+    font-size: 28px;
+    float:right;
+    margin:35px 100px 45px 0;
+    
+}
+#footercop
+{
+    text-align: center;
+    float:right;
+    margin: 45px 30px;;
+    
+}
+
+
+li:hover
+{
+    background: black;
+    
+}
+.share
+{
+    float:left;
+    margin: 40px 40px 40px 60px;
+    
+}
+.share a:link
+{
+    text-decoration: none;
+}

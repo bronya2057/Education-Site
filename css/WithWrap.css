@@ -1,0 +1,152 @@
+@media only screen and (max-width:1110px) {
+    
+    body
+    {
+      min-width: 600px;
+    }
+    .allwidth ,body,#foot,#signIn,nav,  #vid iframe/*,#mainAurora>div,.twoimages*/
+    {
+          min-width: 700px;
+        width:100%;
+    }
+    
+    #banner div
+    {
+        margin: 0 auto !important;
+    }
+    #sectionOne,section
+    {
+        width:60%;
+    }
+   #vid
+    {
+        width:100%;
+        height: 100%;
+        margin:0;
+        clear:both;
+    }
+    #signIn img
+    {
+        padding-right: 10px;
+    }
+    #planeCrush
+    {
+        position: absolute;
+        left:0px;
+        display: none;
+    }
+	
+	#cards
+	{
+    
+        width: 700px;
+        min-width: 100px;
+        
+	}
+    .firstrowcard:first-child
+    {
+        margin-left: 150px !important; 
+        margin-bottom: 100px;
+    }
+    #Beaches
+    {
+        margin-left: 150px !important; 
+        margin-bottom: 60px;
+    }
+
+    #vid {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    
+}
+   .leftArt,.rightArt{float:none;width: 60%;margin:0 auto;}
+    .rightArt{padding-top: 0;margin-bottom: 40px;}
+    .hoverbox li:nth-last-child(2) {margin-left: 130px;}
+    #planeCrush{ visibility: hidden;top:0px;left:0px;}
+
+#vid iframe{position: absolute; top: 0;left: 0; width: 100%;height: 100%;}
+
+/*GALLERY*/
+.first-row,.second-row{   width:80% !important;background:black; }
+@media only screen and (max-width:980px) {
+    .hoverbox
+    {
+        width:500px;
+        margin: 0 auto;
+    }
+   /* .first-row
+    {
+        width:150px;
+       
+    }
+    .hoverbox li:nth-last-child(2)
+    {
+        margin-left: 0;
+    }
+    .hoverbox
+    {
+        width: 488px;
+        margin:0 auto;
+    }*/
+     .hoverbox li:nth-last-child(2)
+    {
+        margin-left: 0px !important;
+    }
+     
+}
+@media only screen and (max-width:750px) {
+
+/*.firstrowcard:first-child,#Beaches
+    {
+        min-width: 300px;
+    }*/
+    #contactUs, .twoimages
+    {
+        width:400px;
+    }
+    body
+    {
+        width: auto;
+    }
+    .leftArt,.rightArt
+    {
+        
+        float:none;
+        width: 60%;
+        margin:0 auto;
+        
+    }
+     #mainAurora
+    {
+        margin:0;
+    }
+    #mainAurora>div
+    {
+        
+        margin-left: 32%;
+        font-size: 1.5em
+    }
+  .rightArt
+    {
+        padding-top: 0;
+    
+    }
+    .twoimages>img
+    {
+        position:absolute;
+        display: none;
+        margin: 20px 0 0 0;
+    }
+    
+    #footerShare
+    {
+        position:absolute;
+        top:0;
+        visibility:hidden;
+    }
+   
+   
+}
+

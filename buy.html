@@ -1,0 +1,246 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Band</title>	
+	<meta name="Band" content="Some band site" charset="UTF-8">	
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<link href="css/fotorama.css" rel="stylesheet">
+	<link rel="stylesheet" href="libs/FontAwesome/css/font-awesome.min.css">
+  <script src="js/fotorama.js"></script>
+  <script src="js/LightBox.js"></script>
+      <link href="css/WithWrap.css" rel="stylesheet" media="all and (max-width: 1110px)">
+	<style>
+input[type=range] {
+  -webkit-appearance: none;
+  
+  margin: 6.8px 0;
+}
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 8.4px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  background: #3071a9;
+  border-radius: 1.3px;
+  border: 0.2px solid #010101;
+}
+input[type=range]::-webkit-slider-thumb {
+  box-shadow: 1px 1px 1px #040000, 0px 0px 1px #1e0000;
+  border: 1.4px solid #000000;
+  height: 22px;
+  width: 19px;
+  border-radius: 50px;
+  background: #ffffff;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -7px;
+}
+        #leftCont    {
+            margin: 0 auto;
+        }
+       #rightCont img{
+            width: 100%;
+            margin:0 auto;
+           -webkit-box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75);
+        }
+        #sectionOne  {width: 70%;margin: 0 auto;max-width: 900px;}
+        #upperFilter h3{float:left;}
+        #upperFilter{width:440px; margin: 0 auto;}
+        #test,#range{ margin-left: 20px; display: inline-block;}
+        #firstbuy img{width:300px; height: 220px; float:left;}
+        #rightCont{ clear: both; text-align: center; border-radius: }
+        #secondbuy img{ width:300px; height: 220px; float:right;}
+        #rightCont p{ }
+        #rightCont div{padding-bottom: 50px; min-width: 600px;}
+        h3{
+            font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 600;
+	
+        }
+        p
+        {
+            font-family: Georgia,Times,Times New Roman,serif;
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+        }
+        input[type=button]
+        {
+            border-radius: 5px;
+           color:white;
+            background: #AF0D09;
+            position: absolute;
+        }
+       
+	</style>
+</head>
+<body onload="timer()">
+<div id="wrapper" >	
+    <header id="signInHead" >
+           <div id="signIn" >
+            <a href="signin.html">sign in</a>
+            <a href="signin.html"> <img src="img/Login.png" ></a>
+           
+            </div>
+    </header>
+   <header id="mainAuroraHead" class="allshadow" >
+        <div id="mainAurora" class="allwidth" >
+           <div class="twoimages">
+               <img src="img/Log.png" >
+            <div id="contactUs" >
+                Contact Us: <b>+380636543041
+                <br >
+                bronya10@gmail.com
+                <br></b>
+                <a href="https://www.facebook.com/"><img src="img/Facebook_Red.png"></a>
+                <a href="https://vk.com"> <img  src="img/VK_Red.png"></a>
+                <a href="https://twitter.com"><img src="img/Twitter_Red.png"></a>
+            </div>
+           </div>
+            
+            <img id="planeCrush" src="img/Plane_crush.png">
+        </div>
+        
+	</header>
+    <nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+			<li><a href="media.html">Contacts</a></li>
+			<li><a href="buy.html">Buy</a></li>
+            <li><a href="about.html">About</a></li>
+            
+		</ul>
+	</nav>
+	<section id="sectionOne">
+	
+	<div id="upperFilter">
+		<h3>How much to spend?</h3>
+		<div id="range">
+			<input id="ranger" type="range" value="0" min="1000" max="3000" name="rangeInput" onchange="updateTextInput(this.value)">
+		</div>
+		<input type="text" id="textInput" value="" style="display:none">
+		<p id="test" id="textInput">0</p>
+	</div>
+       
+        <div id="rightCont">
+           <div id="firstbuy">
+           
+                   <img src="img/gallery/NY1.JPG">
+                   <!--<input type="button" value="Order">-->
+
+               <h3>Italy</h3>
+               <p>Price: <span id="italy" class="price">1000</span>$</p>
+               <p>I adore italy it is perfecto belissimo italiano piccola pasta pizza I adore italy it is perfecto belissimo italiano piccola pasta pizza I adore italy it is perfecto belissimo italiano piccola pasta pizza I adore italy it is perfecto belissimo italiano piccola pasta pizza</p>
+               
+           </div>
+            <div id="secondbuy">
+               
+                <img src="img/gallery/NY2.JPG">
+                <h3>New York</h3>
+                <p>Price: <span class="price">2001</span>$</p>
+                <p>I adore italy it is perfecto belissimo italiano piccola pasta pizza I adore italy it is perfecto belissimo italiano piccola pasta pizza I adore italy it is perfecto belissimo italiano piccola pasta pizza I adore italy it is perfecto belissimo italiano piccola pasta pizza</p>
+            </div>
+            
+            
+	    </div>
+	</section>
+	
+</div>
+<footer>
+           <div id="foot" class="allwidth">
+           <div class="share">
+              <a href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank"> 
+             <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" /> 
+        </a> 
+        <a href="https://plus.google.com/share?url=https://simplesharebuttons.com" target="_blank"> 
+         <img src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google" /> 
+     </a> 
+        <a href="https://twitter.com/share?url=https://simplesharebuttons.com&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons" target="_blank"> 
+        <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" /> 
+    </a> 
+     
+     <a href="http://vkontakte.ru/share.php?url=https://simplesharebuttons.com" target="_blank"> 
+         <img src="https://simplesharebuttons.com/images/somacro/vk.png" alt="VK" /> 
+     </a> 
+
+          </div>
+           <div id="footercop" >Copyright &copy Aurora <br>All rights reserved
+        </div>
+        <div id="footerShare" >
+                Share:<br>
+                <a class="fonthrefs" href="https://www.facebook.com/"><i class="fa fa-facebook-official"></i></a>
+                <a  class="fonthrefs" href="https://vk.com"><i class="fa fa-vk"></i></a> 
+                <a class="fonthrefs" href="https://twitter.com"><i class="fa fa-twitter-square"></i></a>
+            </div>
+       
+        </div>
+    </footer>
+		<script src="js/slider.js"></script>
+		<script type="text/javascript">
+        function updateTextInput(val) {
+            
+            document.getElementById('rightCont').style.display="block"; 
+          document.getElementById('textInput').value=val; 
+        document.getElementById('test').innerHTML=val;
+           //console.log(val);
+            /*if(parseInt(document.getElementById('italy').innerHTML)<val)
+                {
+                     //alert('yes')
+                   document.getElementById('rightCont').style.display="none"; 
+                }*/
+            var tagist=document.getElementsByTagName('span');
+           // console.log(tagist);
+            var classmates=document.getElementsByClassName('price');
+           // console.log(classmates[0].innerHTML);
+            //console.log(classmates.length)
+            
+            /*var x=classmates[0].parentNode.parentElement;//РОДИТЕЛЬ КЛАССА
+            var y=x.id;// БЕРЕМ ИД ЭТОГО РОДИТЕЛЯ ТО ЕСТЬ ДИВА
+            console.log(x) 
+            console.log(y);
+            document.getElementById(y).style.display="none";*/
+            for(var i=0;i<classmates.length;i++)
+                {
+                    x=classmates[i].parentNode.parentElement;
+                    y=x.id;
+                    console.log(classmates[i].innerHTML,i,val)
+                    if(classmates[i].innerHTML>=val)
+                    {
+                        //console.log("else")
+                        // classmates[i].style.display="visible"; 
+                        console.log("makeVisible")
+                       document.getElementById(y).style.display="block"; //document.getElementById('secondbuy').style.display="none";
+                    }
+                }
+            for(var i=0;i<classmates.length;i++)
+                {
+                    x=classmates[i].parentNode.parentElement;
+                    y=x.id;
+                    console.log(classmates[i].innerHTML,i,val)
+                     if(classmates[i].innerHTML<val)
+                        {
+                            console.log("make invisible")
+                       // console.log("if")
+                        
+                           //classmates[i].style.display="none"; 
+                           document.getElementById(y).style.display="none";
+                           
+                        }
+                    
+                }
+        }          
+  </script>
+</body>	
+</html>
